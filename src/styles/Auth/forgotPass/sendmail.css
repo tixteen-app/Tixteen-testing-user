@@ -1,0 +1,163 @@
+/* Base styling for the entire page */
+.main_send_mail_to_email {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background for the page */
+  }
+  
+  /* Container for the form */
+  .form-container-forgot-password {
+    width: 90%;
+    max-width: 450px;
+    background-color: #1e1e1e; /* Dark background for form container */
+    padding: 32px 24px;
+    color: #f5f5f5; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Logo container styling */
+  .logo-container {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--third-yellow-color); /* Dark yellow color */
+  }
+  
+  /* Form styling */
+  .form-forgot-password {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styling */
+  .form-group-forgot-password {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  /* Label styling */
+  .form-group-forgot-password label {
+    display: block;
+    margin-bottom: 6px;
+    color: #f5f5f5; /* Light text color */
+    font-weight: 500;
+  }
+  
+  /* Input styling */
+  .form-group-forgot-password input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif; /* Improved font family */
+    border: 1px solid #333; /* Dark border */
+    background-color: #2e2e2e; /* Dark input background */
+    color: #f5f5f5; /* Light text color */
+  }
+  
+  .form-group-forgot-password input::placeholder {
+    color: #b0b0b0; /* Light gray placeholder */
+  }
+  
+  .form-group-forgot-password input:focus {
+    outline: none;
+    /* border-color: #f9d835; Dark yellow border on focus */
+    color: var(--third-yellow-color); /* Dark yellow color */
+
+  }
+  
+  /* Button styling */
+  .form-submit-btn-forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1e1e1e; /* Dark background color for text */
+    /* background-color: #f9d835; Dark yellow background */
+    background-color: var(--third-yellow-color); /* Dark yellow color */
+
+
+    border: none;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    gap: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-submit-btn-forgot-password:hover {
+    background-color: #d4b715; /* Lighter yellow on hover */
+  }
+  
+  .form-submit-btn-forgot-password:active {
+    transform: scale(0.95);
+  }
+  
+  /* Link styling */
+  .link {
+    color: #f9d835; /* Dark yellow color */
+    text-decoration: none;
+  }
+  
+  .signup-link {
+    align-self: center;
+    font-weight: 500;
+  }
+  
+  .signup-link .link {
+    font-weight: 400;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Loader styling */
+  .send_mail_loader {
+    width: 120px;
+    height: 60px;
+    border-radius: 200px 200px 0 0;
+    -webkit-mask: repeating-radial-gradient(farthest-side at bottom, #0000 0, #000 1px 12%, #0000 calc(12% + 1px) 20%);
+    background: radial-gradient(farthest-side at bottom, #ffcc00 0 95%, #0000 0) bottom/0% 0% no-repeat #333; /* Dark background for loader */
+    animation: l10 2s infinite steps(6);
+  }
+  
+  @keyframes l10 {
+    100% {
+      background-size: 120% 120%;
+    }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 520px) {
+    .form-container-forgot-password {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .logo-container {
+      font-size: 20px;
+    }
+  
+    .form-submit-btn-forgot-password {
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 521px) and (max-width: 1024px) {
+    .form-container-forgot-password {
+      width: 80%;
+    }
+  }
+  

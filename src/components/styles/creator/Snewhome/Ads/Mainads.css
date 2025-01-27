@@ -1,0 +1,249 @@
+.Mainads_main_div{
+    width: 100%;
+    background-color: var(--dark-yellow-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    gap: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.Mainads_top_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Mainads_top_div_left{
+    width: 100%;
+}
+.Mainads_top_div_titel{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Mainads_top_div_descption_text{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.Mainads_bottom_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.Mainads_bottom_div_left{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Mainads_bottom_div_right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mainads_span{
+    font-size: 34px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.mainads_bottom_text_div{
+    font-size: 20px;
+}
+.daboard_image{
+    width: 100%;
+}
+
+
+@media (max-width:1030px) {
+    .Mainads_main_div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 70px;
+        gap: 20px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .Mainads_top_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Mainads_top_div_left{
+        width: 100%;
+    }
+    .Mainads_top_div_titel{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .Mainads_top_div_descption_text{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .Mainads_bottom_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .Mainads_bottom_div_left{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Mainads_bottom_div_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mainads_span{
+        font-size: 32px;
+        padding-right: 20px;
+    }
+    .mainads_bottom_text_div{
+        font-size: 18px;
+    }
+    .daboard_image{
+        width: 100%;
+    }
+}
+
+@media (max-width:780px) {
+    .Mainads_main_div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .Mainads_top_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Mainads_top_div_left{
+        width: 100%;
+    }
+    .Mainads_top_div_titel{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Mainads_top_div_descption_text{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .Mainads_bottom_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .Mainads_bottom_div_left{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Mainads_bottom_div_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mainads_span{
+        font-size: 27px;
+        padding-right: 10px;
+    }
+    .mainads_bottom_text_div{
+        font-size: 16px;
+    }
+    .daboard_image{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .Mainads_main_div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .Mainads_top_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Mainads_top_div_left{
+        width: 100%;
+    }
+    .Mainads_top_div_titel{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Mainads_top_div_descption_text{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .Mainads_bottom_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    
+    .Mainads_bottom_div_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Mainads_bottom_div_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mainads_span{
+        font-size: 27px;
+        padding-right: 10px;
+    }
+    .mainads_bottom_text_div{
+        font-size: 16px;
+    }
+    .daboard_image{
+        width: 100%;
+    }
+}

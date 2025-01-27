@@ -1,0 +1,181 @@
+/* /* CSS for OTP Verification Form */
+
+/* Main container for the login page */
+.main_login_page_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--light-blue-color);
+    padding: 20px;
+  }
+  
+  /* Form container */
+  .Otp-verified-form, .form-forgot-password {
+    background-color: var(--light-yellow-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    font-family: var(--kumbh-font);
+  }
+  
+  /* Heading */
+  .Otp-verified-heading, .logo-container {
+    font-family: var(--lilita-font);
+    color: var(--dark-yellow-color);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* OTP input boxes */
+  .Otp-verified-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .Otp-verified-input {
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--light-gray-color);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--dark-gray-color);
+    font-family: var(--kumbh-font);
+    background-color: var(--light-yellow-color);
+  }
+  
+  .Otp-verified-input:focus {
+    border-color: var(--blue-color);
+    outline: none;
+  }
+  
+  /* Buttons */
+  .button_otp_page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .Otp-verified-btn1, .Otp-verified-btn2 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--inter-font);
+    cursor: pointer;
+  }
+  
+  .Otp-verified-btn1:hover, .Otp-verified-btn2:hover {
+    background-color: var(--dark-yellow-color);
+  }
+  
+  /* Back button */
+  .Otp-verified-btn2 {
+    background-color: var(--light-gray-color);
+  }
+  
+  .Otp-verified-btn2:hover {
+    background-color: var(--dark-gray-color);
+  }
+  
+  /* Loader for OTP */
+  .opt_don_loader_main_div, .match_OTP_loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .otp_done_loader {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .circle {
+    position: relative;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .dot {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--dark-yellow-color);
+  }
+  
+  .outline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--dark-yellow-color);
+    animation: outlinePulse 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes outlinePulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Form group for password reset */
+  .form-group-forgot-password {
+    margin-bottom: 20px;
+  }
+  
+  .form-group-forgot-password label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--dark-gray-color);
+    font-family: var(--inter-font);
+  }
+  
+  .form-group-forgot-password input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--light-gray-color);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--dark-gray-color);
+    background-color: var(--light-yellow-color);
+    font-family: var(--kumbh-font);
+  }
+  
+  .form-group-forgot-password input:focus {
+    border-color: var(--blue-color);
+    outline: none;
+  }
+  
+  /* Update password button */
+  .submit {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--kumbh-font);
+  }
+  
+  .submit:hover {
+    background-color: var(--dark-yellow-color);
+  }
+  

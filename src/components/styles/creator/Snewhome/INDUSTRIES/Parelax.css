@@ -1,0 +1,37 @@
+.carousel-content-for-new-home{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.carousel-row-for-new-home{
+    display: flex;
+    gap: 50px;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-image-list-new-home {
+    width: 120px;
+    height: 100%;
+    transition: transform 0.5s ease;
+    object-fit: contain;
+  }
+  
+  @media (max-width:1024px) {
+    .carousel-image-list-new-home {
+      width: 100px;
+    }
+    .carousel-row-for-new-home{
+      gap: 40px;
+  }
+  }
+  @media (max-width:800px) {
+    .carousel-image-list-new-home {
+      width: 80px;
+    }
+    .carousel-row-for-new-home{
+      gap: 40px;
+  }
+  }

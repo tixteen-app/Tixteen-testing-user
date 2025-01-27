@@ -24,11 +24,16 @@
   border: none;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: all 0.8s ease;
   font-family: var(--josefin-font);
   text-transform: uppercase;
   font-weight: 600;
 }
+.tixteen_join_infu_button:hover {
+  background-color: var(--black-color);
+  color: var(--dark-yellow-color);
+}
+
 .tixteen_join_infu_button_div {
   position: absolute;
   right: 5%;

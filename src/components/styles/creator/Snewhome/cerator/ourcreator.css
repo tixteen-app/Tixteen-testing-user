@@ -96,6 +96,10 @@
     border: none;
     transition: all 0.3s ease-in-out;
 }
+.leftourcraor_button:hover {
+    background-color: var(--black-color);
+    color: var(--dark-yellow-color);
+  }
 
 /* right  */
 .rightourcraor_main_div{

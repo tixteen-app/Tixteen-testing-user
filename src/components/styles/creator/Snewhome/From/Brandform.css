@@ -67,7 +67,7 @@
     font-family: var(--josefin-font);
 }
 
-.main_brandform_div_bottom_input_div button{
+.main_brandform_div_bottom_input_button{
     width: 15%;
     padding: 10px 20px ;
     border: none !important;
@@ -81,6 +81,10 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+.main_brandform_div_bottom_input_button:hover {
+    background-color: var(--black-color);
+    color: var(--dark-yellow-color);
+  }
 
 @media (max-width:1030px) {
     .main_brandform_div{

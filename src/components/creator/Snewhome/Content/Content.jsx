@@ -1,11 +1,15 @@
 import React, { useRef } from "react";
 import image1 from "../../../../assets/Newhome/content/image 1.png";
+import video1 from "../../../../assets/Newhome/sider1.mp4";
+import video2 from "../../../../assets/Newhome/slider2.mp4";
+import video3 from "../../../../assets/Newhome/slider3.mp4";
+import video4 from "../../../../assets/Newhome/slider4.mp4";
 import "../../../styles/creator/Snewhome/Content/Content.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 function Content() {
-  const images = [image1, image1, image1];
+  const images = [video1, video2, video3, video4];
   const swiperRef = useRef(null);
 
   return (
@@ -42,11 +46,14 @@ function Content() {
           spaceBetween={20}
           slidesPerView={2}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
+          // loop
+          loop={true}
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <div className="content_image_div_section">
-                <img src={image} className="swiper-image" alt={`slide-${index}`} />
+                {/* <video src={image} className="swiper-image" alt={`slide-${index}`} /> */}
+                <video src={image} className="swiper-image" alt={`slide-${index}`} autoPlay loop muted playsInline />
               </div>
             </SwiperSlide>
           ))}

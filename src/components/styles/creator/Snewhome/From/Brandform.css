@@ -67,13 +67,13 @@
     font-family: var(--josefin-font);
 }
 
-.main_brandform_div_bottom_input_button{
+.main_brandform_div_bottom_input_button_new{
     width: 15%;
     padding: 10px 20px ;
-    border: none !important;
-    border-radius: 10px !important;
-    background: var(--dark-yellow-color) !important;
-    color: var(--black-color) !important;
+    border: none ;
+    border-radius: 10px ;
+    background: var(--dark-yellow-color) ;
+    color: var(--black-color) ;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -81,7 +81,7 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-.main_brandform_div_bottom_input_button:hover {
+.main_brandform_div_bottom_input_button_new:hover {
     background-color: var(--black-color);
     color: var(--dark-yellow-color);
   }

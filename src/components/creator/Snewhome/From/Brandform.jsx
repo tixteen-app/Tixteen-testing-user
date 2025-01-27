@@ -23,7 +23,7 @@ function Brandform() {
                     <input type="text" placeholder='Industry Type' className='main_brandform_div_bottom_input' />
                 </div>
                 <div className='main_brandform_div_bottom_input_div' >
-                    <button className='main_brandform_div_bottom_input_button' >Submit</button>
+                    <button className='main_brandform_div_bottom_input_button_new' >Submit</button>
                 </div>
             </div>
         </div>
